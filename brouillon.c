@@ -13,13 +13,17 @@
         }
 
       }
-      if(cpt==2){
-        printf(" le nombre de %d est premier",cpt);
+       while(i<=10)
+    {
+        printf("%d\t",i);
+        i++;
+    }
+    if(cpt==2){
+        printf(" le nombre de %d est premier",n);
       }
     else{
-        printf(" le nombre de %d n'est pas premier",cpt);
+        printf(" le nombre de %d n'est pas premier",n);
     }
-
   return 0;
     }
 
